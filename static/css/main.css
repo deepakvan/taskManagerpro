@@ -1,0 +1,48 @@
+body
+{
+    margin: 0;
+    font-family: sans-serif;
+
+}
+.content
+{
+    background: aqua;
+}
+table
+{
+    border-collapse: collapse;
+    width: 50%;
+}
+td,th{
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 1px solid #ddd;
+}
+tr:hover {background-color: coral;}
+
+.button {
+    transition-duration: 0.4s;
+  background-color: white; /* Green */
+  border: none;
+  color: black;
+    border: 2px solid #4CAF50; /* Green */
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+    border-radius: 12px;
+}
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
